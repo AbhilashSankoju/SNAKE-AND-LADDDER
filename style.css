@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#board{
+    background: url(board.jpg); 
+    height: 46.35rem;
+    width: 46.35rem;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background:url(snake_background.jpg);
+    background-size: contain;
+    
+}
+#mainboard{
+    display:inline-block;
+    margin-left: 5rem;
+    padding: 2rem;
+
+}
+#turn{
+    text-align: center;
+    font-size: 2rem;
+}
+.player{
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 0.95; 
+}
+#p1{
+    background-color: yellow;
+    /* top: 330px; */
+    
+}
+#p2{
+    background-color: red;
+}
+.box{
+    height:4.5rem;
+    width: 4.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#diceBtn{
+    height: 5rem;
+    width: 5rem;
+    color: red;
+    background-color: yellowgreen;
+}
+#turn{
+    margin-top: 5rem;
+}
+#diceImg{
+    border-radius: 25%;
+}
+header{
+    
+    height: 15rem;
+    width: 25rem;
+    background-image: url(logo1.png);
+    background-size: cover;
+    position: relative;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+
+    left: 20rem;
+}
+#tog{
+    font-size:xx-large;
+    color: #02180d;
+    font-weight: 520;
+    text-shadow: 3px 3px 5px rgba(171, 212, 132, 0.5);
+
+}
